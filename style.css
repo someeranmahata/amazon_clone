@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.navlogo{
+    height: 50px;
+    width: 129px;
+}
+.logo{
+    background-image: url(logo.png);
+    height: 50px;
+    width: 129px;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.Address{
+    align-items: center;
+}
+.upper{
+    font-size: 11px;
+    color: grey;
+    margin-left: 15px;
+}
+.lower{
+    font-size: 17px;
+    display: flex;
+}
+.search{
+    margin-left: 15px;
+    display: flex;
+}
