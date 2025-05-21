@@ -2,44 +2,85 @@
     margin: 0;
     font-family: Arial;
     border: border-box;
-
 }
 .navbar{
-    background-color: black;
-    color: white;
-    height: 60px;
     display: flex;
     align-items: center;
-}
-.navlogo{
-    height: 50px;
-    width: 129px;
+    background-color: #0F1111;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
 }
 .logo{
-    background-image: url(logo.png);
-    height: 50px;
-    width: 129px;
+    width: 130px;
+    height: 53px;
+    background-image: url(amznLogo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1px 8px 0px 6px;
+    margin: 1px;
 }
-.border{
-    border: 1.5px solid transparent;
+.address, .signin, .returnorder{
+    width: 195;
+    height: 50;
+    padding: 0px 9px;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 2px 5px 0px;
 }
-.border:hover{
-    border: 1.5px solid white;
+.address p, .signin p, .returnorder p{
+    font-size: 12px;
+    color: #CCCC;
 }
-.Address{
-    align-items: center;
-}
-.upper{
-    font-size: 11px;
-    color: grey;
-    margin-left: 15px;
-}
-.lower{
-    font-size: 17px;
+.addressbelow, .addressbelow p, .accountlist p, .andorders p{
+    font-size: 14px;
+    color: white;
     display: flex;
+}
+.searchoption{
+    border-radius: 4px;
+    width: 367px;
+    height: 40px;
+    display: flex;
+    margin: 0px 6px;
+    background-color: rgb(244, 198, 47);
+    
+}
+.searchoption select{
+    width: 45px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 .search{
-    margin-left: 15px;
     display: flex;
+    justify-content: space-between;
+}
+.search input{
+    outline: none;
+    font-size: 16px;
+    width: 280px;
+}
+.searchlogo{
+    padding: 10px;
+    justify-content: center;
+    height: 40px;
+}
+.cartlogo{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    width: 84px;
+    height: 50px;
+    color: white;
+    justify-content: center;
+}
+.message{
+    font-size: 14px;
+    color: #CCCC;
+}
+.lastboxnavbar{
+    width: 381px;
+    height: 58px;
+    display: flex;
+    justify-content: space-evenly;
 }
